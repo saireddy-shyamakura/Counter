@@ -4,26 +4,24 @@ let entry=document.getElementById("previous-entries")
 
 function increment() {
 			count=count+1
-			counting.innerText=count
+			counting.innerText= "Count :" +" "+ count
 		}
 function decrement() {
 			count=count-1
-			counting.innerText=count
+			counting.innerText="Count :" +" "+ count
 		}
 function reset() {
 			count=0
-			counting.innerText=count
+			counting.innerText="Count :" +" "+ count
 		}
 function save() {
 			let entry1=count+" "
 			entry.textContent += entry1
 			count=0
-			counting.innerText=count
+			counting.innerText="Count :" +" "+ count
 		}
 function clear() {
-	        count=0
-			counting.innerText=count
-	 		// let entry2=" no previous entries"
-			// entry.textContent = entry2
+	        count=20
+			counting.innerText="Count :" + " "+ count
 			
 		}
