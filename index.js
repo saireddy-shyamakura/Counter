@@ -21,7 +21,7 @@ function save() {
 			counting.innerText="Count :" +" "+ count
 		}
 function clear() {
-	        count=20
+	        count=0
 			counting.innerText="Count :" + " "+ count
 			
 		}
